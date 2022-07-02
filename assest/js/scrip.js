@@ -19,4 +19,7 @@ const multTotal = () => {
     color.style.backgroundColor = colorImput.value;
 }
     
+document.querySelector('#color').style.backgroundColor = color;
+
+
 button.addEventListener("click", multTotal);
