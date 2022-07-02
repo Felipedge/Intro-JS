@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assest/css/style.css">
+    <title>JavaScrip</title>
+</head>
+
+<body>
+    <div class="principal">
+        <div class="producto">
+            <img class="img" src="assest/img/pc-gamer.png" alt="producto">
+            <p class="descripcion">PC Gamar AMD Ryzen 9</p>
+            <input type="text" placeholder="Cantidad" id="cantidad">
+            <input type="text" placeholder="Color" id="color">
+            <p class="precio">Precio Unitario: $1.199.990</p>
+            <button class="boton" id="botoncalcular">Calcular Precio Total</button>
+
+        </div>
+        <div class="resultado">
+            <p>Total: $ <span id="precioFinal"></span></p>
+            <p>Cantidad: <span id="cantidadFinal"></span></p>
+            <p>Color: <span id="colorFinal"></span> </p>
+
+        </div>
+    </div>
+    <script src="assest/js/scrip.js"></script>
+</body>
